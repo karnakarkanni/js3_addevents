@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    #text{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(12, 12, 14);
+        
+    }
+   </style>
+</head>
+
+<body>
+    <button id="on-button" onclick="hello()">On</button>
+<button id="off-button" onclick="hi()">Off</button>
+<div id="text">Hello World!</div>
+<script>
+  function hello(){
+    var a=document.getElementById("text")
+    a.style.color="red"
+    a.style.backgroundColor="blue"
+  }
+  function hi(){
+    var b=document.getElementById("text")
+    b.style.color="blue"
+    b.style.backgroundColor="red"
+  }
+   
+
+</script>
+
+</body>
+</html>

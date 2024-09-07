@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <img src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1xw:0.74975xh;center,top&resize=1200:*" width="100px"  onmouseover="hello()" alt="">
+   <img src="https://img.freepik.com/free-photo/beautiful-domestic-cat-laying-fence_181624-43207.jpg?size=626&ext=jpg" width="100px"  onmouseover="hello1()" alt="">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYu_-MCKOt3ceIRyArXWWIJAec29k3LhTUyg&s" width="100px"  onmousemove="hello2()" alt="">
+   <div style="width: 300px;height: 300px;" id="u">
+
+   </div>
+   <script>
+    var div_get=document.getElementById("u")
+    var img_cre=document.createElement("img")
+
+    div_get.append(img_cre)
+    function hello(){
+        img_cre.src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1xw:0.74975xh;center,top&resize=1200:*"
+        img_cre.style.width="300px"
+        img_cre.style.height="300px"   
+    } 
+    function hello1(){
+        
+        img_cre.src="https://img.freepik.com/free-photo/beautiful-domestic-cat-laying-fence_181624-43207.jpg?size=626&ext=jpg"
+        img_cre.style.width="300px"
+        img_cre.style.height="300px"
+    }
+    function hello2(){
+        img_cre.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYu_-MCKOt3ceIRyArXWWIJAec29k3LhTUyg&s"
+        img_cre.style.width="300px"
+        img_cre.style.height="300px"
+    }
+   </script>
+</body>
+</html>

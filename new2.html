@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500/" id="hi" width="100px">
+    <button onmouseover="hello()">90 deg</button>
+    <button onmouseover="he()">180 deg</button>
+    <button onmouseover="hel()">360 deg</button>
+    <script>
+        
+        function hello(){
+        var a=document.getElementById("hi")
+        a.style.transform="rotate(90deg)";
+    }
+    function he(){
+        var a=document.getElementById("hi")
+        a.style.transform="rotate(180deg)";
+    }
+    function hel(){
+        var a=document.getElementById("hi")
+        a.style.transform="rotate(360deg)";
+    }
+    </script>
+</body>
+</html>
